@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Subrayada:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Subrayada:wght@400;700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+#hi{
+  border: 3px solid black;
+  padding: 3px 1px;
+ /* background-color: #000; */
+ /* border-width: 1px 0px 0px 0px; */
+ margin-right: 66rem;
+ background-repeat: repeat-y;
+ background-image: linear-gradient(brown, black);
+}
+
+#section {
+  background-image: url(pictures/czy.jpg);
+  height: 90vh;
+  background-position: 0%;
+  width: 250vh;
+  margin: 0%;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+/* background-image: linear-gradient(18deg, brown, chocolate); */
+background-repeat: repeat-y;
+
+
+
+}
+
+#header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  padding-left: 65em;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 7px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 26px;
+}
+
+nav ul li a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+#COOLZY {
+  text-decoration: none;
+  color: #cc6336;
+  font-size: 4rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  /* margin-left: 1rem; */
+}
+
+#brand-name {
+  /* padding-left: 40px; */
+  /* padding-top: 30px; */
+  font-size: 3rem;
+  width: 200px;
+  color: #000;
+  background-image: url(pictures/glitter.png) ;
+  background-repeat: repeat;
+margin-left: 50px
+}
+
+
+
+.items {
+  color: #000;
+  /* width: 100px; */
+  padding-left: 32px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+#oof {
+  background-color: #000;
+  color: red;
+  border-radius: 220px;
+  /* width: 2px; */
+  font-size: 27px;
+  padding: 2em 1em;
+  /* font-family: "Josefin Sans", arial ; */
+  margin-left: 7rem;
+  font-family: "DM Serif Display", serif;
+}
+
+#Jordan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Jojo {
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+#Fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.ilas {
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+#nike {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ike {
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+#ADIDAS {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.didas {
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+.pp {
+  font-size: 22px;
+}
+
+button {
+  color: #fff;
+  display: grid;
+  background-color: #007bff;
+  border-radius: 5px;
+  border-color: #007bff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.picture:hover {
+  transform: rotate(25deg);
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  border-style: solid;
+  border-color: rgb(39, 37, 159);
+  border-width: 1px 0px 1px 0px;
+  padding: 0em 0em;
+  background-image: url(./pictures/slide3.jpg);
+  color: #fff;
+}
+
+#hh {
+  text-align: center;
+  color: rgb(41, 103, 157);
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 40px;
+  padding-top: 90px;
+  font-size: 3rem;
+}
+
+#hh a {
+  text-decoration: underline;
+  color: rgb(3, 25, 25);
+  padding: 40px;
+}
+
+#hh :hover {
+  color: #9c9595;
+}
+
+.promo {
+  color: #ff0000;
+  font-size: 1em;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.off {
+  text-decoration: line-through;
+}
+
+/*footer styles*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif, arial;
+  font-size: 1em;
+}
+
+.footer-about {
+  width: 250px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.footer-social i {
+  font-size: 18px;
+}
+
+.footer-copyright {
+  font-size: 1em;
+}
+
+.fa.fa-facebook {
+  color: blue;
+  background-color: white;
+  padding: 0.1em 0.2em;
+}
+
+.fa.fa-twitter {
+  color: #007bff;
+  padding: 0.1em 0.2em;
+}
+
+.fa.fa-instagram {
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #b85450 75%,
+    #8e2440 100%
+  );
+  padding: 0.1em 0.2em;
+}
+
+#about-us {
+  font-size: 2em;
+  border: 2px solid aqua;
+  border-width: 0px 0px 2px 0px;
+}
+
+#contact-us {
+  font-size: 2em;
+  border: 2px solid aqua;
+  border-width: 0px 0px 2px 0px;
+}
+
+#social {
+  font-size: 2em;
+  border: 2px solid aqua;
+  border-width: 0px 0px 2px 0px;
+}
+
+.footer-social {
+  width: 250px;
+}
+
+#back-link a {
+  font-size: 2em;
+  text-decoration-color: #54575a;
+  text-decoration: none;
+}
+
+.exe {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 17px;
+  font-size: 40px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #fff;
+  color: black;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.next {
+  background-color: #897e7e;
+  color: #000;
+}
+#swap {
+  padding-left: 38rem;
+  /* column-count: 3; */
+ 
+}

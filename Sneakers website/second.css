@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Subrayada:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat+Subrayada:wght@400;700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  /* background-color: #000; */
+  height: 100vh;
+  /* width: 190vh; */
+  margin: 2%;
+  border: 10px black solid;
+}
+
+#section{
+    background-image: url(pictures/nike3.jpg);
+    height: 100vh;
+    background-position: 0%;
+    /* width: 250vh; */
+    margin: 0%;
+    flex-wrap: wrap;
+}
+
+#header{
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+display: flex;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+  }
+  
+  nav ul li a:hover {
+    color: white;
+    transition: 0.2s;
+  }
+  
+  .homepage{
+    margin: 2%;
+    border: 10px black solid;
+  }
+
+  #COOLZY{
+    text-decoration: line-through;
+    color: aqua;
+    font-size: 4rem;
+  }
+
+  #brand-name {
+    color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 3rem;
+  width: 10px;
+  }
+
+  #motto {
+    color: white;
+    width: 300px;
+    padding-left: 32px;
+
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+  }
+
+  #Jordan{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+
+.Jojo{
+ width: 210px;
+ color: black;
+ font-weight: bolder;
+}
+
+
+#Fila{
+  display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.ilas{
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+#nike{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.ike{
+  width: 210px;
+  color: black;
+  font-weight: bolder;
+}
+
+#ADIDAS{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.didas{
+  width: 270px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+.pp{
+  font-size: 22px;
+}
+
+button{
+  color: #fff;
+  display: grid;
+  background-color: #007bff;
+  border-radius: 5px;
+  border-color: #007bff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.picture:hover{
+  transform: rotate(25deg);
+}
+h3{
+text-align: center;
+font-size: 2em;
+border-style: solid;
+border-color: rgb(39, 37, 159);
+border-width: 1px 0px 1px 0px;
+padding: 0em 0em;
+background-image: url(./pictures/slide3.jpg);
+color: #fff;
+}
+
+#hh{
+  text-align: center;
+  color: rgb(41, 103, 157);
+    font-family: "Josefin Sans", sans-serif;
+    padding-left: 40px;
+    padding-top: 90px;
+    font-size: 3rem;
+
+}
+
+#hh a{
+  text-decoration: underline;
+  color: rgb(3, 25, 25);
+  padding: 40px;
+}
+
+#hh :hover{
+color: #9c9595;
+}
+
+.promo{
+  color: #ff0000;
+  font-size: 1em;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.off{
+  text-decoration: line-through;
+}
+
+/*footer styles*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 100px; 
+  text-align: center;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+font-family: sans-serif, arial;
+font-size: 1em;
+}
+
+.footer-about{
+  width: 250px;
+  
+}
+
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.footer-social i {
+  font-size: 18px;
+}
+
+.footer-copyright {
+  font-size: 1em;
+}
+
+.fa.fa-facebook{
+  color: blue;
+  background-color: white;
+  padding: 0.1em 0.2em;
+}
+
+.fa.fa-twitter{
+  color: #007bff;
+  padding: 0.1em 0.2em;
+}
+
+.fa.fa-instagram{
+background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, 
+#dc2743 50%, #b85450 75%, #8e2440 100%)
+;
+padding: 0.1em 0.2em
+;
+}
+
+#about-us{
+  font-size: 2em;
+ border: 2px solid aqua;
+ border-width: 0px 0px 2px 0px;
+}
+
+#contact-us{
+  font-size: 2em;
+  border: 2px solid aqua;
+ border-width: 0px 0px 2px 0px;
+}
+
+#social{
+  font-size: 2em;
+  border: 2px solid aqua;
+ border-width: 0px 0px 2px 0px;
+}
+
+.footer-social{
+  width: 250px;
+}
+
+#back-link a{
+  font-size: 2em;
+  text-decoration-color: #54575a;
+  text-decoration: none;
+}
+
+.exe{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 17px;
+  font-size: 40px;
+ 
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.next {
+  background-color: #045aaa;
+  color: white;
+}
+#swap{
+  padding-left: 36rem;
+  column-count: 3;
+  column-gap: 40px;
+ 
+}
